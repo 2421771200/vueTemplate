@@ -3,16 +3,14 @@
     <div class="a">
       <div class="b">123</div>
       <van-button type="primary">主要按钮</van-button>
+      <el-button>默认按钮</el-button>
     </div>
   </div>
 </template>
 <script>
-import { Button } from 'vant';
 export default {
   name: 'shang-hai',
-  components: {
-    vanButton: Button
-  },
+
   data () {
     return {}
   }
