@@ -14,13 +14,15 @@ export default {
   name: 'shang-hai',
   data () {
     return {}
-  }
+  },
+  created () { },
+  mounted () {
+    let a = this.$lodash.chunk(['a', 'b', 'c', 'd'], 2);
+    let b = this.$lodash.compact([0, 1, false, 2, '', 3]);
+    console.log(a)
+    console.log(b)
+  },
 }
 </script>
 <style lang="less" scoped>
-.a {
-  .b {
-    color: red;
-  }
-}
 </style>

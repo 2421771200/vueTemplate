@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo"
          src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <div class="router-view">
       <router-view />
     </div>
@@ -10,16 +10,15 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld
   },
   created () { },
   mounted () {
-    console.log(process.env.BASE_URL)
   },
 }
 </script>
