@@ -1,15 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
+import home from "@/router/mobile/home"
 const routes = [
-    {
-        path: '/',
-        name: 'Home',
-        component: () => import("@/views/home/home.vue"),
-        meta: {
-            footShow: false
-        }
-    },
+    ...home
 ]
 const router = new VueRouter({
     mode: 'hash',
