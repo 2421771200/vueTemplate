@@ -6,10 +6,12 @@
       <el-button>默认按钮</el-button>
       <van-button plain
                   type="primary">朴素按钮</van-button>
+      <div class="ceshi">测试</div>
     </div>
   </div>
 </template>
 <script>
+import '@/assets/css/index.less'
 export default {
   name: 'shang-hai',
   data () {
